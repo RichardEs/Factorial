@@ -25,4 +25,4 @@ int factorial(int num) //Funcion que calcula el factorial
 	return resultado;
 }
 
-// Si te sirvio, sigueme en instagram @richard.es_ respondo dudas :)
+// Si te sirvio, suscribete!
