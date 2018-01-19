@@ -1,7 +1,7 @@
-#include <iostream.h> //Biblioteca que contiene las funciones de entrada y salida de texto
-#include <stdlib.h> //Controla el proceso System
+#include <iostream.h> 
+#include <stdlib.h> 
 
-int factorial(int numero);  //Declara la funcion 
+int factorial(int numero);  
 
 void main()
 {
@@ -9,9 +9,9 @@ void main()
 	int numero;
 
 	cout << "Ingrese el numero para obtener su factorial." << endl;
-   cin >> numero; //Permite al usuario ingresar el numero al que se le va calcular el factorial
+   cin >> numero; 
    cout << "El factorial de " << numero << " es: " << factorial(numero) << endl;
-   system("pause");//Pausa el sistema hasta que el usuario presione cualquier tecla
+   system("pause");
 
 }
 
@@ -25,4 +25,3 @@ int factorial(int num) //Funcion que calcula el factorial
 	return resultado;
 }
 
-// Si te sirvio, suscribete!
