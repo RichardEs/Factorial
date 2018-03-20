@@ -9,9 +9,9 @@ void main()
 	int numero;
 
 	cout << "Ingrese el numero para obtener su factorial." << endl;
-   cin >> numero; 
-   cout << "El factorial de " << numero << " es: " << factorial(numero) << endl;
-   system("pause");
+   	cin >> numero; 
+   	cout << "El factorial de " << numero << " es: " << factorial(numero) << endl;
+   	system("pause");
 
 }
 
